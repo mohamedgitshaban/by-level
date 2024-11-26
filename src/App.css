@@ -1,0 +1,142 @@
+.navbar-nav{
+    flex-wrap: wrap;
+}
+.card-text{
+    background-color:rgba(255, 0, 0, 0.514) ;
+    text-align: center;
+    padding: 5px 10px;
+}
+.css-1yhpg23-MuiTableCell-root{
+    color: white;
+}
+.front{
+    position: relative;
+    height: 590px;
+    margin: 150px auto;
+    background-image: url("./assets/1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.front h1{
+    position: absolute;
+    color: #653D10;
+    top: 8%;
+    left: 4%;
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+.front h3{
+    position: absolute;
+    top: 14%;
+    color: #494949;
+    left: 4%;
+    font-size: 1.4rem;
+    margin-top: 3px;
+}
+.absdata{
+    position: absolute;
+    top: 33%;
+    color: black;
+    font-size: 1.4rem;
+    opacity: 0.8;
+    font-weight: 900;
+    left: 11%;
+}
+.absdata p{
+    margin-top: 5px;
+}
+
+.absqr {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    position: absolute;
+    top: 37%;
+    right: 5%;
+}
+.ar{
+    
+    background-image: url("./assets/2.png");
+}
+.ar .absdata{
+    top: 33%;
+    text-align: end;
+    right: 5%;
+}
+.ar .absqr{
+    left: 5%;
+
+}
+.ar  h1{
+    right: 4%;
+    text-align: end;
+}
+.ar  h3{
+    right: 4%;
+    text-align: end;
+
+}
+.id-card{
+    display: flex;
+}
+.backid{
+    background-image: url("./assets/backid.png");
+    width: 591px;
+    height: 500px;
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.frontid{
+    background-image: url("./assets/frontid.png");
+    width: 296px;    position: relative;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.absqrpi{
+    width: 144px;
+    position: absolute;
+    height: 146px;
+    border-radius: 15px;
+    left: 23%;
+    top: 15%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.idheader{
+    position: absolute;
+    top: 46%;
+    color: black;
+    width: 100%;
+    text-align: center;
+
+}
+.idheader h1{
+    font-size: 1.1rem;
+}
+.idbody {
+    position: absolute;
+    top: 60%;
+    margin: 0px;
+    color: black;
+    left: 30%;
+}
+.idbody h3{
+    line-height: 1;
+    font-size: 0.7rem;
+}
+
+
+.absqrqr {
+    width: 85px;
+    height:  85px;
+    background-size: cover;
+    position: absolute;
+    top: 73%;
+    right: 35%;
+}
+.text-left{
+    text-align: right;
+}
